@@ -50,7 +50,7 @@ body {
 
 .frosted::before {
     content: "";
-    background-image: url(../images/circle-blues.png);
+    background-image: url(../images/background.png);
     background-repeat: repeat;
     background-position-x: -10px;
     background-position-y: -2px;

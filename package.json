@@ -2,9 +2,9 @@
   "name": "trivia-fun",
   "version": "1.0.0",
   "description": "A trivia game with 12 rounds, multiple categories and 3 levels of difficulty.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/catarina-mcs/trivia-fun#readme",
   "devDependencies": {
-    "eslint": "^7.30.0"
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "eslint": "^7.30.0",
+    "parcel": "^2.0.0-rc.0"
   }
 }
